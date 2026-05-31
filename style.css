@@ -9,7 +9,7 @@
 
 }      
 
-@media (min-width: 344px){
+@media (min-width: 343px){
     main{
     position: relative;
 }
@@ -33,17 +33,14 @@
     .apiTxt{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        height: 10em;
-        max-width: 20em;
+        height: 20em;
+        max-width: 15em;
     }
     .apiImg{
         display: flex;
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 20em;
+        max-width: 15em;
     }
     .apiExp{
         text-align: center;
@@ -104,7 +101,7 @@ body{
     margin: 0;
     padding: 0;
 }
-/*header*/
+
 header{
     display: flex;
     flex-direction: column;
@@ -256,28 +253,33 @@ main{
     color: #ffffff;
     margin-left: 2em;
 }
+
+.prjctBox{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.prjctTxt{
+    display: flex;
+    color: #ffffff;
+}
+
 .prjcts{
     display: flex;
     justify-content: center;
-}
-.api{
-    display: flex;
-    justify-content: center;
-    width: 60em;
-    /* max-width: 60em; */
+    flex-direction: column;
 }
 
 .apiTxt{
     display: flex;
-    height: 20em;
+    width: 40em;
     background-color: #313131;
     border-radius: 16px;
 }
     .apiImg{
-        display: flex;
-        height: 20em;    
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 16px;
+        width: 20em;    
+        border-top-right-radius: 16px;
         border-top-left-radius: 16px;
     }
 
