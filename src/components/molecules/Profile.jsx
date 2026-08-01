@@ -8,10 +8,10 @@ function Profile(){
             </div>
             <div className="flex flex-col">
                 <h1 className="self-center font-bold text-[1.5em]">Yuri Legaz Brasil</h1>
-                <div className="self-center">
-                    ✉ legazyuri279@gmail.com | 
-                    ☎ 612 20 82 45 |
-                    🌏︎ Spain</div>
+                <div className="self-center flex-wrap">
+                    <p>✉ legazyuri279@gmail.com</p>
+                    <p>☎ 612 20 82 45 | 🌏︎ Spain</p>
+                </div>
             </div>
             <div>
                 <p className="p-[1em] text-center">Fullstack Developer focused on building intuitive, responsive web applications with React, Tailwind CSS, Node.js, and MongoDB. Passionate about clean code, problem-solving, and expanding into TypeScript and Computer Science. Eager to contribute to a dynamic team and deliver value from day one.</p>
