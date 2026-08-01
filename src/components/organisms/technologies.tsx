@@ -10,7 +10,7 @@ import { MongoIcon } from "../atoms/MongoIcon"
 
 function Technologies(){
     return(
-        <div className="">
+        <div>
             <div className="flex gap-1.5 p-2">    
                 <div >
                     <GitIcon/>
