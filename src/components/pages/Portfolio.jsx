@@ -1,6 +1,6 @@
 import { Technologies } from "../organisms/technologies"
 import { Highbar } from "../molecules/Highbar"
-import { Pfp } from "../molecules/Pfp"
+import { Pfp } from "../molecules/Profile"
 
 function Portfolio(){
     return(
