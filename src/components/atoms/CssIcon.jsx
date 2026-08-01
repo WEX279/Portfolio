@@ -1,6 +1,6 @@
 function CssIcon(){
     return(
-        <img src="https://icon.icepanel.io/Technology/svg/CSS3.svg"/>
+        <img className="w-[5em]" src="https://icon.icepanel.io/Technology/svg/CSS3.svg"/>
     )
 }
 

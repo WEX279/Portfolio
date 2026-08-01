@@ -1,6 +1,6 @@
 function NodeIcon(){
     return(
-        <img src="https://icon.icepanel.io/Technology/svg/Node.js.svg"/>
+        <img className="w-[5em]" src="https://icon.icepanel.io/Technology/svg/Node.js.svg"/>
     )
 }
 
