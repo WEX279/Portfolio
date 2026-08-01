@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom"
-import { Technologies } from "./components/organisms/technologies"
+import { Portfolio } from "../src/components/pages/Portfolio"
 
 function App() {
 
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Technologies/>}/>
+        <Route path='/' element={<Portfolio/>}/>
       </Routes>
     </div>
   )

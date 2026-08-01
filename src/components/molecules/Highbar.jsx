@@ -1,0 +1,17 @@
+import { GithubIcon } from "../atoms/GithubIcon"
+
+function Highbar(){
+    return(
+        <div className="w-[10em] sticky top-0">
+            <a href="https://github.com/WEX279" target="_blank" className="flex p-2 w-fit">
+                <GithubIcon/>
+                <p className="content-center text-2xl pl-2">WEX279</p>
+            </a>
+            
+        </div>
+    )
+}
+
+export {
+    Highbar
+}
