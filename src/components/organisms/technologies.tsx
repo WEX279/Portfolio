@@ -1,18 +1,18 @@
-import { CssIcon } from "../atoms/CssIcon"
-import { ExpressIcon } from "../atoms/Express"
 import { GitIcon } from "../atoms/GitIcon"
 import { HtmlIcon } from "../atoms/HtmlIcon"
-import { JsIcon } from "../atoms/JsIcon"
-import { MongoIcon } from "../atoms/MongoIcon"
-import { NodeIcon } from "../atoms/NodeIcon"
-import { ReactIcon } from "../atoms/ReactIcon"
+import { CssIcon } from "../atoms/CssIcon"
 import { TailwindIcon } from "../atoms/TailwindIcon"
+import { JsIcon } from "../atoms/JsIcon"
+import { ReactIcon } from "../atoms/ReactIcon"
+import { NodeIcon } from "../atoms/NodeIcon"
+import { ExpressIcon } from "../atoms/Express"
+import { MongoIcon } from "../atoms/MongoIcon"
 
 function Technologies(){
     return(
         <div className="">
-            <div className="flex">    
-                <div>
+            <div className="flex gap-1.5 p-2">    
+                <div >
                     <GitIcon/>
                 </div>
                 <div>
