@@ -7,7 +7,6 @@ function Highbar(){
                 <GithubIcon/>
                 <p className="content-center text-2xl pl-2 ">WEX279</p>
             </a>
-        {/* <div className="sticky top-0  "/> */}
         </div>
     )
 }
