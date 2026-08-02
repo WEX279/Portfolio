@@ -13,46 +13,62 @@ function Technologies(){
     return(
         <div>
             <div className="flex gap-1.5 p-2 flex-col items-center">  
-                <p className="font-bold text">Technologies</p>
-                <div className="border rounded-xl p-[1em]">
-                    <p></p>
-                    <div >
-                        <GitIcon/>
+                <p className="font-bold text-[1.5em]">Technologies</p>
+                <div className="border rounded-xl ">
+                    <p className="flex justify-center font-bold p-1">Development sources</p>
+                    <div className="flex">
+                        <div >
+                            <GitIcon/>
+                        </div>
+                        <div>
+                            <img className="w-[5em] m-[1em]" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"/>
+                        </div>
                     </div>
-                    <div>
-                        <img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" className="w-[5em]"/>
-                    </div>
-                    <div>
-                        <VscodeIcon/>
+                    <div className="flex justify-center">
+                        <div>
+                            <VscodeIcon/>
+                        </div>
                     </div>
                 </div>  
 
                 <div className="border rounded-xl">
-                    <div>
-                        <HtmlIcon/>
+                    <p className="flex justify-center font-bold">Frontend engines</p>
+                    <div className="flex">
+                        <div>
+                            <HtmlIcon/>
+                        </div>
+                        <div>
+                            <CssIcon/>
+                        </div>
                     </div>
-                    <div>
-                        <CssIcon/>
+                    <div className="flex">
+                        <div>
+                            <TailwindIcon/>
+                        </div>
+                        <div>
+                            <JsIcon/>
+                        </div>
                     </div>
-                    <div>
-                        <TailwindIcon/>
-                    </div>
-                    <div>
-                        <JsIcon/>
-                    </div>
-                    <div>
-                        <ReactIcon/>
+                    <div className="flex justify-center">
+                        <div>
+                            <ReactIcon/>
+                        </div>
                     </div>
                 </div>
-                <div className="border rounded-xl p-[1em]">
-                    <div>
-                        <NodeIcon/>
+                <div className="border rounded-xl">
+                    <p className="flex justify-center font-bold">Backend engines</p>
+                    <div className="flex">
+                        <div>
+                            <NodeIcon/>
+                        </div>
+                        <div>
+                            <ExpressIcon/>
+                        </div>
                     </div>
-                    <div>
-                        <ExpressIcon/>
-                    </div>
-                    <div>
-                        <MongoIcon/>
+                    <div className="flex justify-center">
+                        <div>
+                            <MongoIcon/>
+                        </div>
                     </div>
                 </div>
             </div>
