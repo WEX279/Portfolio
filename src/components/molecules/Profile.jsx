@@ -15,8 +15,12 @@ function Profile(){
                         <p>☎ 612 20 82 45</p>
                     </div>
                     <div className="flex justify-center gap-2">
-                        <FaGithub className="w-10 h-10 text-black hover:text-slate transition-colors"/>
-                        <FaLinkedin className="w-10 h-10 text-black hover:text-sky-600 transition-colors"/>
+                        <a href="https://github.com/WEX279" target="_blank">
+                        <FaGithub className="w-10 h-10 text-black hover:text-slate-700 transition-colors"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/YuriLegaz" target="_blank">
+                            <FaLinkedin className="w-10 h-10 text-black hover:text-sky-600 transition-colors"/>
+                        </a>
                     </div>
                 </div>
             </div>
