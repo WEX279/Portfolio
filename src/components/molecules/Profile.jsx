@@ -10,6 +10,7 @@ function Profile(){
                 </div>
                 <div className="flex flex-col md:flex md:self-center">
                     <h1 className="self-center font-bold text-[1.5em]">Yuri Legaz Brasil</h1>
+                    <h2 className="self-center text-[1em]">Fullstack dev</h2>
                     <div className="self-center flex-wrap p-1">
                         <p>✉ legazyuri279@gmail.com</p>
                         <p>☎ 612 20 82 45</p>
@@ -25,7 +26,7 @@ function Profile(){
                 </div>
             </div>
             <div>
-                <p className="p-[1em] text-center">Fullstack Developer focused on building intuitive, responsive web applications with React, Tailwind CSS, Node.js, and MongoDB. Passionate about clean code, problem-solving, and expanding into TypeScript and Computer Science. Eager to contribute to a dynamic team and deliver value from day one.</p>
+                {/* <p className="p-[1em] text-center">Fullstack Developer focused on building intuitive, responsive web applications with React, Tailwind CSS, Node.js, and MongoDB. Passionate about clean code, problem-solving, and expanding into TypeScript and Computer Science. Eager to contribute to a dynamic team and deliver value from day one.</p> */}
             </div>
         </div>
     )
