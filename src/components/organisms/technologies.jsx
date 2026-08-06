@@ -19,45 +19,33 @@ function Technologies(){
             <div className="flex p-2 flex-col items-center">  
                 <p className="font-bold">Technologies</p>
                 <div className="flex flex-row gap-[1em] md:flex md:flex-row md:gap-[1.5em]">
-                            <div>
-                                <GitIcon/>
-                            </div>
-                            <div>
-                                <img className="w-[2.5em] md:w-[4em]" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"/>
-                            </div>
-                            <div>
-                                <VscodeIcon/>
-                            </div>
-                            <div>
-                                <HtmlIcon/>
-                            </div>
-                            <div>
-                                <CssIcon/>
-                            </div>
-                            <div>
-                                <TailwindIcon/>
-                            </div>
-                            <div>
-                                <JsIcon/>
-                            </div>
-                            <div>
-                                <ReactIcon/>
-                            </div>
-                            <div>
-                                <NodeIcon/>
-                            </div>
-                            <div>
-                                <ExpressIcon/>
-                            </div>
-                            <div>
-                                <MongoIcon/>
-                            </div>
-                            <div>
-                                <VercelIcon/>
-                            </div>
-                            <div>
-                                <ViteIcon/>
-                            </div>
+                    <GitIcon/>
+
+                    <div>
+                        <img className="w-[2.5em] md:w-[4em]" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"/>
+                    </div>      
+
+                        <VscodeIcon/>
+                            
+                        <HtmlIcon/>
+                            
+                        <CssIcon/>
+                            
+                        <TailwindIcon/>
+                            
+                        <JsIcon/>
+                            
+                        <ReactIcon/>
+                            
+                        <NodeIcon/>
+                            
+                        <ExpressIcon/>
+
+                        <MongoIcon/>
+
+                        <VercelIcon/>
+
+                        <ViteIcon/>
                     <hr/>
                 </div>
             </div>
