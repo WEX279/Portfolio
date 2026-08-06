@@ -19,7 +19,7 @@ function Technologies(){
                                 <GitIcon/>
                             </div>
                             <div>
-                                <img className="w-[5em] m-[1em]" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"/>
+                                <img className="w-[2.5em] m-[1em]" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"/>
                             </div>
                             <div>
                                 <VscodeIcon/>
