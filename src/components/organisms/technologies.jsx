@@ -12,7 +12,10 @@ import { MongoIcon } from "../atoms/MongoIcon"
 function Technologies(){
     return(
         <div>
+            <br/>
+            <hr/>
             <div className="flex p-2 flex-col items-center">  
+                <p className="font-bold">Technologies</p>
                 <div className="flex flex-row gap-[1.5em] md:flex md:flex-row md:gap-[1.5em]">
                     <div className="flex">
                             <div >
@@ -51,6 +54,7 @@ function Technologies(){
                         </div>
                     </div>
                 </div>
+                <hr/>
             </div>
     )
 }
