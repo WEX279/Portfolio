@@ -8,6 +8,8 @@ import { ReactIcon } from "../atoms/ReactIcon"
 import { NodeIcon } from "../atoms/NodeIcon"
 import { ExpressIcon } from "../atoms/Express"
 import { MongoIcon } from "../atoms/MongoIcon"
+import { VercelIcon } from "../atoms/VercelIcon"
+import { ViteIcon } from "../atoms/ViteIcon"
 
 function Technologies(){
     return(
@@ -16,13 +18,12 @@ function Technologies(){
             <hr/>
             <div className="flex p-2 flex-col items-center">  
                 <p className="font-bold">Technologies</p>
-                <div className="flex flex-row gap-[1.5em] md:flex md:flex-row md:gap-[1.5em]">
-                    <div className="flex">
-                            <div >
+                <div className="flex flex-row gap-[1em] md:flex md:flex-row md:gap-[1.5em]">
+                            <div>
                                 <GitIcon/>
                             </div>
                             <div>
-                                <img className="w-[2.5em] m-[1em] md:w-[4em]" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"/>
+                                <img className="w-[2.5em] md:w-[4em]" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"/>
                             </div>
                             <div>
                                 <VscodeIcon/>
@@ -48,13 +49,18 @@ function Technologies(){
                             <div>
                                 <ExpressIcon/>
                             </div>
-                                <MongoIcon/>
                             <div>
+                                <MongoIcon/>
                             </div>
-                        </div>
-                    </div>
+                            <div>
+                                <VercelIcon/>
+                            </div>
+                            <div>
+                                <ViteIcon/>
+                            </div>
+                    <hr/>
                 </div>
-                <hr/>
+            </div>
             </div>
     )
 }
