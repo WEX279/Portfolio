@@ -19,6 +19,7 @@ function Technologies(){
             <div className="flex p-2 flex-col items-center">  
                 <p className="font-bold">Technologies</p>
                 <div className="flex flex-row gap-[1em] md:flex md:flex-row md:gap-[1.5em]">
+
                     <GitIcon/>
 
                     <div>
@@ -46,10 +47,10 @@ function Technologies(){
                         <VercelIcon/>
 
                         <ViteIcon/>
-                    <hr/>
                 </div>
             </div>
-            </div>
+            <hr/>
+        </div>
     )
 }
 
