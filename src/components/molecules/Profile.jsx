@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 function Profile(){
     return(
         <div className="flex flex-col">
-            <div className="md:flex md:flex-row-reverse md:flex md:justify-around">
+            <div className="md:flex md:flex-row-reverse md:justify-around">
                 <div className="flex justify-center ">
                     <img src={kirk} className="rounded-full w-[10em] p-2 md:w-[30em] "/>
                 </div>
