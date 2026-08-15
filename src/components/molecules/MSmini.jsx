@@ -1,4 +1,5 @@
-import MSthumbnail from '../../assets/mangaSyncThumbnail.png'
+// import MSthumbnail from '../../assets/mangaSyncThumbnail.png'
+import MSthumbnail from '../../assets/MSThumbnail.png'
 
 function MSmini(){
     return(
