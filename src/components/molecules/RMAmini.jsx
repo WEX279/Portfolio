@@ -7,7 +7,7 @@ function RMAmini(){
                 <a href="https://wex279.github.io/Rick-MortyAPI/" target="blank">
                     <img src={RMmini} className="flex rounded-t-xl w-3xs"/>
                     <div className="p-[0.5em]">
-                        <p>A web page where you can fetch information about characters as well as their details, such as status, genre or specie.</p>
+                        <p>Interactive web app to search characters by name and display detailed cards using async backend fetches.</p>
                         <p>Developed with HTML5, CSS and JavaScript.</p>
                     </div>
                 </a>
