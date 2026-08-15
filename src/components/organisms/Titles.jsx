@@ -6,11 +6,15 @@ import m4 from '../../assets/titles/Frontend_con_React_-.png'
 function Titles(){
     return(
         <div>
-            <p className="font-bold flex justify-center text-[2em]">Titles</p>
-            <img src={m1}/>
-            <img src={m2}/>
-            <img src={m3}/>
-            <img src={m4}/>
+            <div className="p-[1em]">
+                <p className="font-bold flex justify-center text-[2em]">Titles</p>
+                <div className="flex justify-around">
+                    <img className=" w-[10em] " src={m1} alt="Fundamentos_Web_-_(HTML,_CSS,_JavaScript_y_Github)"/>
+                    <img className=" w-[10em] " src={m2} alt="JavaScript_Avanzado, _Asincronía_y_Visualización_"/>
+                    <img className=" w-[10em] " src={m3} alt="Backend_con_Node.js,_Express_y_Bases_de_Datos_"/>
+                    <img className=" w-[10em] " src={m4} alt="Frontend_con_React_-"/>
+                </div>
+            </div>
         </div>
     )
 }
