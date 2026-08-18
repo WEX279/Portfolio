@@ -2,16 +2,14 @@ import RMmini from '../../assets/RYMmini.png'
 
 function RMAmini(){
     return(
-        <div>
-            <div className="rounded-xl border-black border-2 w-3xs">
-                <a href="https://wex279.github.io/Rick-MortyAPI/" target="blank">
-                    <img src={RMmini} className="flex rounded-t-xl w-3xs"/>
-                    <div className="p-[0.5em]">
-                        <p>Interactive web app to search characters by name and display detailed cards using async backend fetches.</p>
-                        <p>Developed with HTML5, CSS and JavaScript.</p>
-                    </div>
-                </a>
-            </div>
+        <div className="flex self-center rounded-xl border-black border-2 w-3xs">
+            <a href="https://wex279.github.io/Rick-MortyAPI/" target="blank">
+                <img src={RMmini} className="flex rounded-t-xl w-3xs"/>
+                <div className="p-[0.5em]">
+                    <p>Interactive web app to search characters by name and display detailed cards using async backend fetches.</p>
+                    <p>Developed with HTML5, CSS and JavaScript.</p>
+                </div>
+            </a>
         </div>
     )
 }
