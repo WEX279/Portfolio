@@ -5,7 +5,7 @@ function Projects(){
     return(
         <div>
             <p className="font-bold flex justify-center text-[2em]">Projects</p>
-            <div className="flex justify-around gap-[2em] p-[1em]">
+            <div className="flex flex-col md:justify-around gap-[2em] p-[1em]">
                 <MSmini/>
                 <RMAmini/>
             </div>
