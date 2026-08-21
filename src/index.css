@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --animate-infinite-scroll: infinite-scroll 15s infinite linear;
+}
+
+@keyframes infinite-scroll {
+  from{
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
